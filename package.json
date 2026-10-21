@@ -1,0 +1,37 @@
+{
+  "name": "workforce-attendance",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "create-admin": "tsx scripts/create-admin.ts"
+  },
+  "overrides": {
+    "postcss": "^8.5.30"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "jose": "^5.9.6",
+    "lucide-react": "^0.468.0",
+    "mongoose": "^8.9.5",
+    "next": "^15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.1.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
